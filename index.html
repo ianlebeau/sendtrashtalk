@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>TrashTalk</title>
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+  </head>
+
+  <body id="page-top">
+
+    <div class="jumbotron jumbotron-fluid text-center mb-5">
+      <div class="container">
+        <h1 class="display-4">SendTrashTalk</h1>
+        <p class="lead"><b>Automatically</b> and <b>anonymously</b> send your friends trash talk about their favorite teams</p>
+      </div>
+    </div>
+
+    <section id="services" class="mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center mb-4">
+            <h2 class="section-heading">How It Works</h2>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+            </span>
+            <p class="text-muted">Sign your buddy up for some TrashTalk using their cell number and favorite team.</p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+            </span>
+            <p class="text-muted">We dig into our <em>International Library of Insults</em>&reg; to conjure up TrashTalk related to their team.</p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+            </span>
+            <p class="text-muted">Sit back and relax knowing that your pal is being bombarded with unnecessary and irritating texts.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center mb-4">
+            <h2 class="section-heading text-primary">Send Some TrashTalk</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-5 col-lg-6 col-md-8 m-auto">
+            <form id="factsForm">
+              <div class="form-group mb-4">
+                <label class="lead" for="number"><b>What cell number should receive TrashTalk?</b></label>
+                <input class="form-control" id="number" type="tel" placeholder="555-555-5555">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group mb-4">
+                <label class="lead" for="exampleFormControlSelect1"><b>Select your friend's favorite team:</b></label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>Chicago Bears</option>
+                  <option>Green Bay Packers</option>
+                  <option>Detroit Lions</option>
+                  <option>Minnesota Vikings</option>
+                </select>
+              </div>
+              <div class="form-group mb-4">
+                <label class="lead"><b>How often should they receive TrashTalk?</b></label><br>
+                <div class="form-check form-check-inline">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="radio" name="howOften" id="howOften4perhour" value="option1" checked> 4 an hour
+                  </label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="radio" name="howOften" id="howOften2perhour" value="option2"> 2 an hour
+                  </label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="radio" name="howOften" id="howOften1perhour" value="option3"> 1 an hour
+                  </label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="radio" name="howOften" id="howOften1aday" value="option4"> 1 a day
+                  </label>
+                </div>
+              </div>
+              <div class="form-group mb-4">
+                <label class="lead"><b>How many texts should we send total?</b></label><br>
+                <div class="form-check form-check-inline">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="radio" name="howMany" id="howMany20" value="option1" checked> 20 <small>($5)</small>
+                  </label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="radio" name="howMany" id="howMany16" value="option2"> 16 <small>($4)</small>
+                  </label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="radio" name="howMany" id="howMany8" value="option3"> 8 <small>($2)</small>
+                  </label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="radio" name="howMany" id="howMany4" value="option4"> 4 <small>($1)</small>
+                  </label>
+                </div>
+              </div>
+              <div class="text-center">
+                <div id="success"></div>
+                <button class="btn btn-lg btn-primary mb-3" type="submit"><b>Send TrashTalk Now!</b></button>
+                <p class="small">By sending, you agree to <a href="/terms">Terms of Service</a> and <a href="/privacy">Privacy Policy</a>. <br> 
+                  All payments are securely handled by Stripe.</p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container text-center mb-5">
+        <ul class="list-inline quicklinks">
+          <li class="list-inline-item">
+            <a href="/terms">Terms of Service</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="/privacy">Privacy Policy</a>
+          </li>
+        </ul>
+        <span class="copyright">&copy; Copyright 2017 <b>TrashText</b></span>
+      </div>
+    </footer>
+
+  </body>
+
+</html>
