@@ -29,83 +29,9 @@ body {
 	text-rendering: optimizelegibility;
 }
 
-
-// Color stuff
-.bg-lightgreen { background: $lightGreen; }
-
-.text-gray {
-	color: $gray-dark;
-}
-.lead {
-	font-weight: 400;
-}
-
-
-// Forms
-input.form-control {
-	height: 35px;
-}
-
-
-// Icons
-// Icon Colors
-.icon-success { fill: $green; }
-.icon-red { fill: $red; }
-.icon-purple { fill: $purple; }
-.icon-orange { fill: $orange; }
-
-// Icon Sizing
-.icon {
-	display: inline-block;
-	width: 1.5rem;
-	height: 1.5rem;
-}
-.icon-xl {
-	width: 4rem;
-	height: 4rem;
-}
-.icon-lg {
-	width: 3rem;
-	height: 3rem;
-}
-.icon-md {
-	width: 1rem;
-	height: 1rem;
-}
-.icon-sm {
-	width: 0.5rem;
-	height: 0.5rem;
-}
-.icon-fl-right {
-	float: right;
-	margin-left: 0.5rem;
-	margin-bottom: 0.5rem;
-}
-
-
-// Bubbles 
-.bubble {
-	border-radius: 100%;
-	display: inline-block;
-	min-width: 25px;
-	padding: 5px 8px;
-	background: $gray-lighter;
-	line-height: 1;
+.lead b {
 	font-weight: 600;
 }
-.bubble-success {
-	background: $brand-success;
-	color: #fff;
-}
-.bubble-danger {
-	background: $brand-danger;
-	color: #fff;
-}
-.bubble-warning {
-	background: $brand-warning;
-	color: #fff;
-}
-
 
 // Tables
 .table-responsive {
@@ -120,4 +46,57 @@ input.form-control {
     font-weight: 500;
     font-size: 1.2rem;
     line-height: 1rem;
+}
+
+
+.jumbotron {
+	background: url('http://thesportsfanjournal.com/wp-content/uploads/2013/05/miami-heat-fan-real-mad.jpg') no-repeat 50% 50%;
+	background-size: cover;
+	position: relative;
+	display: flex;
+	align-items: center;
+	height: 80vh;
+
+	.container {
+		position: relative;
+		z-index: 1;
+	}
+
+	h1 {
+		font-weight: 800;
+		margin-bottom: 6vh;
+	}
+
+	.lead {
+		font-size: 1.5rem;
+		max-width: 600px;
+		margin: auto;
+
+		b {
+			font-weight: 800;
+		}
+	}
+
+	.btn {
+		color: $red;
+		font-weight: 600;
+
+		margin-top: 10vh;
+	}
+
+	&:before {
+		content: '';
+		background: rgba(204, 33, 28, 0.7);
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+	}
+}
+
+.site-footer {
+	overflow: hidden;
+	background: #efefef;
+	padding: 2rem 0;
 }
